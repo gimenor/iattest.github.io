@@ -63,7 +63,7 @@ return iatExtension({
 	attribute1 :	{
 		name : 'Inaceptable',
 		title : {
-			media : {word : 'Intolerable'},
+			media : {word : 'Inaceptable'},
 			css : {color:'#0000FF','font-size':'1.8em'},
 			height : 4 //Used to position the "Or" in the combined block.
 			},
