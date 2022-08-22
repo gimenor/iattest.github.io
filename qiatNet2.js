@@ -50,29 +50,29 @@ return iatExtension({
 			height : 4 //Used to position the "Or" in the combined block.
 			},
 		stimulusMedia : [ //Stimuli content as PIP's media objects
-			{word: 'Legítima'},
-			{word: 'Orgullosa'},
-			{word: 'Sincera'},
-			{word: 'Auténtica'},
-			{word: 'Cómoda'}
+			{word: 'Legítimo'},
+			{word: 'Orgulloso'},
+			{word: 'Sincero'},
+			{word: 'Auténtico'},
+			{word: 'Cómodo'}
 			],
 		//Stimulus css
 		stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 		},
 
 	attribute1 :	{
-		name : 'Ilegítimo',
+		name : 'Inaceptable',
 		title : {
-			media : {word : 'Ilegítimo'},
+			media : {word : 'Intolerable'},
 			css : {color:'#0000FF','font-size':'1.8em'},
 			height : 4 //Used to position the "Or" in the combined block.
 			},
 		stimulusMedia : [ //Stimuli content as PIP's media objects
-			{word: 'Ilícita'},
-			{word: 'Avergonzada'},
-			{word: 'Falsa'},
-			{word: 'Incómoda'},
-			{word: 'Indigna'}
+			{word: 'Ilícito'},
+			{word: 'Avergonzado'},
+			{word: 'Falso'},
+			{word: 'Incómodo'},
+			{word: 'Indigno'}
 			],
 		//Stimulus css
 		stimulusCss : {color:'#0000FF','font-size':'2.3em'}
