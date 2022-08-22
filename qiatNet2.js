@@ -22,7 +22,7 @@ return iatExtension({
 		stimulusCss : {color:'#31940F','font-size':'1.8em'}
 	},	
 	category2 :	{
-		name : 'No networking', //Will appear in the data.
+		name : 'Trabajo', //Will appear in the data.
 		title : {
 			media : {word : 'No networking'}, //Name of the category in the task.
 			css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
