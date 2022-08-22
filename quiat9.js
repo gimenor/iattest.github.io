@@ -142,12 +142,12 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			remindError : true,
 
 			remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' +
-			'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
-			'Press the other key to continue.<p/>',
+			'Si se equivoca, aparecerá una <font color="#ff0000"><b>X</b></font> de color rojo. ' +
+			'Pulse la otra tecla para seguir.<p/>',
 
 			remindErrorTextTouch : '<p align="center" style="font-size:"1.4em"; font-family:arial">' +
-			'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
-			'Touch the other side to continue.<p/>',
+			'Si se equivoca, aparecerá una <font color="#ff0000"><b>X</b></font> de color rojo. ' +
+			'Pulse la otra tecla para seguir.<p/>',
 
 			errorCorrection : true, //Should participants correct error responses?
 			errorFBDuration : 500, //Duration of error feedback display (relevant only when errorCorrection is false)
@@ -178,7 +178,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			// leftCategory, rightCategory, leftAttribute and rightAttribute, blockNum, nBlocks.
 			// Notice that this is HTML text.
 			instAttributePractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>Parte blockNum de nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Pulse la tecla <b>E</b> con la izquierda para los ítems que pertenezcan a la categoría <font color="#0000ff">leftAttribute.</font>' +
 				'<br/>Pulse la tecla <b>I</b> con la derecha para los ítems que pertenezcan a la categoría <font color="#0000ff">rightAttribute</font>.<br/><br/>' +
@@ -189,7 +189,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instAttributePracticeTouch: [
 				'<div>',
 					'<p align="center">',
-						'<u>Part blockNum of nBlocks</u>',
+						'<u>Parte blockNum de nBlocks</u>',
 					'</p>',
 					'<p align="left" style="margin-left:5px">',
 						'<br/>',
@@ -204,7 +204,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			].join('\n'),
 
 			instCategoriesPractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>Parte blockNum de nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Pulse la tecla <b>E</b> con la izquierda para los ítems que pertenezcan a la categoría <font color="#336600">leftCategory</font>. ' +
 				'<br/>Pulse la tecla <b>I</b> con la derecha para los ítems que pertenezcan a la categoría <font color="#336600">rightCategory</font>.<br/>' +
@@ -216,7 +216,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instCategoriesPracticeTouch: [
 				'<div>',
 					'<p align="center">',
-						'<u>Part blockNum of nBlocks</u>',
+						'<u>Parte blockNum de nBlocks</u>',
 					'</p>',
 					'<p align="left" style="margin-left:5px">',
 						'<br/>',
@@ -231,12 +231,12 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			].join('\n'),
 
 			instFirstCombined : '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>Parte blockNum de nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
 				'Use la tecla <b>E</b> para <font color="#336600">leftCategory</font> y <font color="#0000ff">leftAttribute</font>.<br/>' +
 				'Use la tecla <b>I</b> para <font color="#336600">rightCategory</font> y <font color="#0000ff">rightAttribute</font>.<br/>' +
 				'Cada ítem pertenece a una sola categoría.<br/><br/>' +
-				'Si comete un error, aparecerá una <font color="#ff0000"><b>X</b></font> de color rojo. ' +
+				'Si se equivoca, aparecerá una <font color="#ff0000"><b>X</b></font> de color rojo. ' +
 				'Pulse la otra tecla para continuar.<br/>' + 
 				'<u>Intente ir rápido</u>, evitando cometer errores.<br/><br/></p>' +
 				'<p align="center">Pulse <b>espacio</b> para empezar.</font></p></div>',
@@ -257,14 +257,14 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			].join('\n'),
 
 			instSecondCombined : '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>Parte blockNum de nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'This is the same as the previous part.<br/>' +
-				'Use the <b>E</b> key for <font color="#336600">leftCategory</font> and for <font color="#0000ff">leftAttribute</font>.<br/>' +
-				'Use the <b>I</b> key for <font color="#336600">rightCategory</font> and for  <font color="#0000ff">rightAttribute</font>.<br/>' +
-				'Each item belongs to only one category.<br/><br/>' +
-				'<u>Go as fast as you can</u> while being accurate.<br/><br/></p>' +
-				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>',
+				'Esta actividad es igual que la anterior.<br/>' +
+				'Use la tecla <b>E</b> para <font color="#336600">leftCategory</font> y <font color="#0000ff">leftAttribute</font>.<br/>' +
+				'Use la tecla <b>I</b> para <font color="#336600">rightCategory</font> y  <font color="#0000ff">rightAttribute</font>.<br/>' +
+				'Cada ítem pertenece a una sola categoría.<br/><br/>' +
+				'<u>Intente ir rápido</u>, evitando cometer errores.<br/><br/></p>' +
+				'<p align="center">Pulse <b>espacio</b> para empezar.</font></p></div>',
 			instSecondCombinedTouch:[
 				'<div>',
 					'<p align="center"><u>Part blockNum of nBlocks</u></p>',
@@ -282,13 +282,13 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			].join('\n'),
 
 			instSwitchCategories : '<div><p align="center" style="font-size:20px; font-family:arial">' +
-				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+				'<font color="#000000"><u>Parte blockNum de nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'<b>Watch out, the labels have changed position!</b><br/>' +
-				'Put the left finger on the <b>E</b> key for <font color="#336600">leftCategory</font>.<br/>' +
-				'Put the right finger on the <b>I</b> key for <font color="#336600">rightCategory</font>.<br/><br/>' +
-				'<u>Go as fast as you can</u> while being accurate.<br/><br/></p>' +
-				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>',
+				'<b>Atención, las etiquetas han cambiado de posición.</b><br/>' +
+				'Pulse <b>E</b> a la izquierda, para <font color="#336600">leftCategory</font>.<br/>' +
+				'Pulse <b>I</b> a la derecha, para <font color="#336600">rightCategory</font>.<br/><br/>' +
+				'<u>Intente ir rápido</u> evitando cometer errores.<br/><br/></p>' +
+				'<p align="center">Pulse <b>espacio</b> para empezar.</font></p></div>',
 			instSwitchCategoriesTouch: [
 				'<div>',
 					'<p align="center">',
@@ -312,29 +312,29 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instThirdCombinedTouch : 'instFirstCombined', //this means that we're going to use the instFirstCombined property for the third combined block as well. You can change that.
 			instFourthCombinedTouch : 'instSecondCombined', //this means that we're going to use the instSecondCombined property for the fourth combined block as well. You can change that.
 
-			showDebriefing:false, //Show feedback in the last trial? Relevant only in a Qualtrics IAT because in Qualtrics we cannot access the saved feedback and IAT score later in the survey.
+			showDebriefing:true, //Show feedback in the last trial? Relevant only in a Qualtrics IAT because in Qualtrics we cannot access the saved feedback and IAT score later in the survey.
 			//Texts for the trials that show the debriefing.
-			preDebriefingText : 'Press space to see your result', //Text in the trial that comes before showing the debriefing.
+			preDebriefingText : 'Pulse espacio para ver resultados', //Text in the trial that comes before showing the debriefing.
 			preDebriefingTouchText : 'Touch the bottom green area to see your result', //Touch version for the text in the trial that comes before showing the debriefing.
-			debriefingTextTop : 'Your result:', //Will be shown above the feedback text.
+			debriefingTextTop : 'Sus resultados:', //Will be shown above the feedback text.
 			//ATTENTION: We do not recommend showing participants their results. The IAT is a typical psychological measure so it is not very accurate. 
 			//In Project Implicit's website, you can see that we added much text to explain that there is still much unknown about the meaning of these results.
 			//We strongly recommend that you provide all these details in the debriefing of the experiment.
-			debriefingTextBottom : 'This result is not a definitive assessment of your attitudes. It is provided for educational purposes only.  Press space to continue.', //Will be shown below the feedback text. 
+			debriefingTextBottom : 'Estos resultados no son una evaluación definitiva de sus actitudes. Se proporciona por motivos educativos.  Pulse espacio para seguir.', //Will be shown below the feedback text. 
             debriefingTextBottomTouch : 'This result is not a definitive assessment of your attitudes. It is provided for educational purposes only.  Touch the green area to continue.',
 			//The default feedback messages for each cutoff -
 			//attribute1, and attribute2 will be replaced with the name of attribute1 and attribute2.
 			//categoryA is the name of the category that is found to be associated with attribute1,
 			//and categoryB is the name of the category that is found to be associated with attribute2.
-			fb_strong_Att1WithCatA_Att2WithCatB : 'Your responses suggested a strong automatic preference for categoryB over categoryA.',
-			fb_moderate_Att1WithCatA_Att2WithCatB : 'Your responses suggested a moderate automatic preference for categoryB over categoryA.',
-			fb_slight_Att1WithCatA_Att2WithCatB : 'Your responses suggested a slight automatic preference for categoryB over categoryA.',
-			fb_equal_CatAvsCatB : 'Your responses suggested no automatic preference between categoryA and categoryB.',
+			fb_strong_Att1WithCatA_Att2WithCatB : 'Sus respuestas sugieren una fuerte preferencia automática hacia la categoryB sobre categoryA.',
+			fb_moderate_Att1WithCatA_Att2WithCatB : 'Sus respuestas sugieren una moderada preferencia automática hacia la categoryB sobre categoryA.',
+			fb_slight_Att1WithCatA_Att2WithCatB : 'Sus respuestas sugieren una ligera preferencia automática hacia la categoryB sobre categoryA.',
+			fb_equal_CatAvsCatB : 'Sus respuestas sugieren que no tiene preferencia automática entre categoryA y categoryB.',
 
 			//Error messages in the feedback
-			manyErrors: 'There were too many errors made to determine a result.',
-			tooFast: 'There were too many fast trials to determine a result.',
-			notEnough: 'There were not enough trials to determine a result.'
+			manyErrors: 'Había demasiados errores para determinar un resultado.',
+			tooFast: 'Fue demasiado rápido en sus respuestas para determinar un resultado.',
+			notEnough: 'No hubo suficientes ensayos para determinar un resultado.'
 		};
 
 		// extend the "current" object with the default
