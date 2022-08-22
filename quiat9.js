@@ -180,12 +180,12 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instAttributePractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'Put a left finger on the <b>E</b> key for items that belong to the category <font color="#0000ff">leftAttribute.</font>' +
-				'<br/>Put a right finger on the <b>I</b> key for items that belong to the category <font color="#0000ff">rightAttribute</font>.<br/><br/>' +
-				'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
-				'Press the other key to continue.<br/>' +
-				'<u>Go as fast as you can</u> while being accurate.<br/><br/></p>'+
-				'<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>',
+				'Pulse la tecla <b>E</b> con la izquierda para los ítems que pertenezcan a la categoría <font color="#0000ff">leftAttribute.</font>' +
+				'<br/>Pulse la tecla <b>I</b> con la derecha para los ítems que pertenezcan a la categoría <font color="#0000ff">rightAttribute</font>.<br/><br/>' +
+				'Si comete un error, aparecerá una <font color="#ff0000"><b>X</b></font> de color rojo. ' +
+				'Pulse la otra tecla para continuar.<br/>' +
+				'<u>Intente ir lo más rápido que pueda</u>, pero evitando errores.<br/><br/></p>'+
+				'<p align="center">Pulse la barra <b>espaciadora</b> cuando quiera empezar.</font></p></div>',
 			instAttributePracticeTouch: [
 				'<div>',
 					'<p align="center">',
@@ -206,9 +206,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instCategoriesPractice: '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'Put a left finger on the <b>E</b> key for items that belong to the category <font color="#336600">leftCategory</font>. ' +
-				'<br/>Put a right finger on the <b>I</b> key for items that belong to the category <font color="#336600">rightCategory</font>.<br/>' +
-				'Items will appear one at a time.<br/><br/>' +
+				'Pulse la tecla <b>E</b> con la izquierda para los ítems que pertenezcan a la categoría <font color="#336600">leftCategory</font>. ' +
+				'<br/>Pulse la tecla <b>I</b> con la derecha para los ítems que pertenezcan a la categoría <font color="#336600">rightCategory</font>.<br/>' +
+				'Los ítems aparecerán de uno en uno.<br/><br/>' +
 				'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
 				'Press the other key to continue.<br/>' +
 				'<u>Go as fast as you can</u> while being accurate.<br/><br/></p>'+
