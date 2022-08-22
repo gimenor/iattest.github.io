@@ -51,7 +51,7 @@ return iatExtension({
 			},
 		stimulusMedia : [ //Stimuli content as PIP's media objects
 			{word: 'Legítima'},
-			{word: 'Orgullesa'},
+			{word: 'Orgullosa'},
 			{word: 'Sincera'},
 			{word: 'Auténtica'},
 			{word: 'Cómoda'}
