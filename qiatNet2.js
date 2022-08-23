@@ -3,9 +3,9 @@ define(['pipAPI', 'https://gimenor.github.io/iattest.github.io/quiat9.js'], func
 
 return iatExtension({
 	category1 : {
-		name : 'Networking', //Will appear in the data.
+		name : 'Hacer Networking', //Will appear in the data.
 		title : {
-			media : {word : 'Networking'}, //Name of the category presented in the task.
+			media : {word : 'Hacer Networking'}, //Name of the category presented in the task.
 			css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 			height : 4 //Used to position the "Or" in the combined block.
 			}, 
