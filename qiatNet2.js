@@ -16,7 +16,8 @@ return iatExtension({
 			{image: 'copas.jpg'},
 			{image: 'eventos.jpg'},
 			{image: 'despachos.jpg'},
-			{image: 'proyectos.jpg'}
+			{image: 'regalos.jpg'},
+			{image: 'redes.jpg'}
 			], 
 		//Stimulus css (style)
 		stimulusCss : {color:'#31940F','font-size':'1.8em'}
@@ -50,11 +51,15 @@ return iatExtension({
 			height : 4 //Used to position the "Or" in the combined block.
 			},
 		stimulusMedia : [ //Stimuli content as PIP's media objects
-			{word: 'Legítimo'},
-			{word: 'Orgulloso'},
-			{word: 'Sincero'},
+			{word: 'Fiable'},
+			{word: 'Justo'},
+			{word: 'Aceptable'},
+			{word: 'Ético'},
+			{word: 'Responsable'},
+			{word: 'Noble'},
 			{word: 'Auténtico'},
-			{word: 'Cómodo'}
+			{word: 'Honesto'},
+			{word: 'Íntegro'}
 			],
 		//Stimulus css
 		stimulusCss : {color:'#0000FF','font-size':'2.3em'}
@@ -69,11 +74,15 @@ return iatExtension({
 			},
 		stimulusMedia : [ //Stimuli content as PIP's media objects
 			{word: 'Inaceptable'},
-			{word: 'Ilícito'},
-			{word: 'Avergonzado'},
+			{word: 'Desleal'},
+			{word: 'Deshonesto'},
 			{word: 'Falso'},
 			{word: 'Incómodo'},
-			{word: 'Indigno'}
+			{word: 'Injusto'},
+			{word: 'Inmoral'},
+			{word: 'Intrusivo'},
+			{word: 'Miserable'},
+			{word: 'Bochornoso'}
 			],
 		//Stimulus css
 		stimulusCss : {color:'#0000FF','font-size':'2.3em'}
