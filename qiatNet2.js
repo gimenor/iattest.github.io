@@ -22,7 +22,7 @@ return iatExtension({
 		stimulusCss : {color:'#31940F','font-size':'1.8em'}
 	},	
 	category2 :	{
-		name : 'Sacar trabajo', //Will appear in the data.
+		name : 'Sacar trabajo adelante', //Will appear in the data.
 		title : {
 			media : {word : 'Sacar trabajo'}, //Name of the category in the task.
 			css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
@@ -43,9 +43,9 @@ return iatExtension({
 		},	
 
 	attribute2 : 	{
-		name : 'Legítimo',
+		name : 'Bueno',
 		title : {
-			media : {word : 'Legítimo'},
+			media : {word : 'Bueno'},
 			css : {color:'#0000FF','font-size':'1.8em'},
 			height : 4 //Used to position the "Or" in the combined block.
 			},
@@ -61,13 +61,14 @@ return iatExtension({
 		},
 
 	attribute1 :	{
-		name : 'Inaceptable',
+		name : 'Malo',
 		title : {
-			media : {word : 'Inaceptable'},
+			media : {word : 'Malo'},
 			css : {color:'#0000FF','font-size':'1.8em'},
 			height : 4 //Used to position the "Or" in the combined block.
 			},
 		stimulusMedia : [ //Stimuli content as PIP's media objects
+			{word: 'Inaceptable'},
 			{word: 'Ilícito'},
 			{word: 'Avergonzado'},
 			{word: 'Falso'},
