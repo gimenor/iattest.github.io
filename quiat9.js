@@ -320,7 +320,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//ATTENTION: We do not recommend showing participants their results. The IAT is a typical psychological measure so it is not very accurate. 
 			//In Project Implicit's website, you can see that we added much text to explain that there is still much unknown about the meaning of these results.
 			//We strongly recommend that you provide all these details in the debriefing of the experiment.
-			debriefingTextBottom : 'Estos resultados no son una evaluación definitiva de sus actitudes. Se proporciona por motivos educativos.  Pulse espacio para seguir.', //Will be shown below the feedback text. 
+			debriefingTextBottom : 'Estos resultados no son una evaluación definitiva de sus actitudes. Pulse espacio.', //Will be shown below the feedback text. 
             debriefingTextBottomTouch : 'This result is not a definitive assessment of your attitudes. It is provided for educational purposes only.  Touch the green area to continue.',
 			//The default feedback messages for each cutoff -
 			//attribute1, and attribute2 will be replaced with the name of attribute1 and attribute2.
