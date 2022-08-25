@@ -326,10 +326,10 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//attribute1, and attribute2 will be replaced with the name of attribute1 and attribute2.
 			//categoryA is the name of the category that is found to be associated with attribute1,
 			//and categoryB is the name of the category that is found to be associated with attribute2.
-			fb_strong_Att1WithCatA_Att2WithCatB : 'Sus respuestas sugieren una fuerte preferencia automática hacia la categoryB sobre categoryA.',
-			fb_moderate_Att1WithCatA_Att2WithCatB : 'Sus respuestas sugieren una moderada preferencia automática hacia la categoryB sobre categoryA.',
-			fb_slight_Att1WithCatA_Att2WithCatB : 'Sus respuestas sugieren una ligera preferencia automática hacia la categoryB sobre categoryA.',
-			fb_equal_CatAvsCatB : 'Sus respuestas sugieren que no tiene preferencia automática entre categoryA y categoryB.',
+			fb_strong_Att1WithCatA_Att2WithCatB : 'sugieren una fuerte preferencia automática hacia categoryB sobre categoryA.',
+			fb_moderate_Att1WithCatA_Att2WithCatB : 'sugieren una moderada preferencia automática hacia categoryB sobre categoryA.',
+			fb_slight_Att1WithCatA_Att2WithCatB : 'sugieren una ligera preferencia automática hacia categoryB sobre categoryA.',
+			fb_equal_CatAvsCatB : 'sugieren que no tiene preferencia automática entre categoryA y categoryB.',
 
 			//Error messages in the feedback
 			manyErrors: 'Había demasiados errores para determinar un resultado.',
@@ -1299,7 +1299,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
                 {
 					inherit : 'Default',
                     media : {word : (piCurrent.debriefingTextTop)},
-                    location:{left:2,top:15,right:2},
+                    location:{left:2,top:10,right:2},
                 },
                 {
                     inherit: 'Default',
@@ -1309,7 +1309,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
                 {
 					inherit : 'Default',
                     media : {word : (isTouch ? piCurrent.debriefingTextBottomTouch:piCurrent.debriefingTextBottom)},
-                    location:{left:2,top:45,right:2}
+                    location:{left:2,top:60,right:2}
                 }
              
                 
