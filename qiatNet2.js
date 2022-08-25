@@ -59,7 +59,8 @@ return iatExtension({
 			{word: 'Noble'},
 			{word: 'Auténtico'},
 			{word: 'Honesto'},
-			{word: 'Íntegro'}
+			{word: 'Íntegro'},
+			{word: 'Placentero'}
 			],
 		//Stimulus css
 		stimulusCss : {color:'#0000FF','font-size':'2.3em'}
