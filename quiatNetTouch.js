@@ -7,7 +7,7 @@ return iatExtension({
 		title : {
 			media : {word : 'Hacer Networking'}, //Name of the category presented in the task.
 			css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
-			height : 4 //Used to position the "Or" in the combined block.
+			height : 3 //Used to position the "Or" in the combined block.
 			}, 
 		stimulusMedia : [ //Stimuli content as PIP's media objects
 			{image: 'deportes.jpg'},
@@ -27,7 +27,7 @@ return iatExtension({
 		title : {
 			media : {word : 'Sacar trabajo'}, //Name of the category in the task.
 			css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
-			height : 4 //Used to position the "Or" in the combined block.
+			height : 3 //Used to position the "Or" in the combined block.
 			}, 
 		stimulusMedia : [ //Stimuli content as PIP's media objects
 			{image: 'estrategias.jpg'},
