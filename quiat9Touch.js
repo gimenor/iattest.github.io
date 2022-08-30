@@ -871,7 +871,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			var instLocation={bottom:1};
 			if (isTouch == true)
 			{
-				instLocation={left:0,top:(params.nCats == 2) ? 7 : 10};
+				instLocation={left:0,top:(params.nCats == 2) ? 5 : 8};
 			}
 			var instTrial = {
 				inherit : 'instructions',
