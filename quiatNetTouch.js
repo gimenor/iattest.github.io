@@ -48,7 +48,7 @@ return iatExtension({
 		title : {
 			media : {word : 'Bueno'},
 			css : {color:'#0000FF','font-size':'1.8em'},
-			height : 4 //Used to position the "Or" in the combined block.
+			height : 3 //Used to position the "Or" in the combined block.
 			},
 		stimulusMedia : [ //Stimuli content as PIP's media objects
 			{word: 'Fiable'},
@@ -71,7 +71,7 @@ return iatExtension({
 		title : {
 			media : {word : 'Malo'},
 			css : {color:'#0000FF','font-size':'1.8em'},
-			height : 4 //Used to position the "Or" in the combined block.
+			height : 3 //Used to position the "Or" in the combined block.
 			},
 		stimulusMedia : [ //Stimuli content as PIP's media objects
 			{word: 'Inaceptable'},
