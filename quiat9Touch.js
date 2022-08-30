@@ -147,7 +147,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 
 			remindErrorTextTouch : '<p align="center" style="font-size:"1.4em"; font-family:arial">' +
 			'Si se equivoca, aparecerá una <font color="#ff0000"><b>X</b></font> de color rojo. ' +
-			'Pulse la otra tecla para seguir.<p/>',
+			'Toque el otro lado para seguir.<p/>',
 
 			errorCorrection : true, //Should participants correct error responses?
 			errorFBDuration : 500, //Duration of error feedback display (relevant only when errorCorrection is false)
