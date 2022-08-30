@@ -243,7 +243,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instFirstCombinedTouch:[
 				'<div>',
 					'<p align="center">',
-						'<u>Part blockNum of nBlocks</u>',
+						'<u>Parte blockNum de nBlocks</u>',
 					'</p>',
 					'<br/>',
 					'<br/>',
