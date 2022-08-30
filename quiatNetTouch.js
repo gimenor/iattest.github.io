@@ -6,7 +6,7 @@ return iatExtension({
 		name : 'Hacer Networking', //Will appear in the data.
 		title : {
 			media : {word : 'Hacer Networking'}, //Name of the category presented in the task.
-			css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
+			css : {color:'#31940F','font-size':'1.5em'}, //Style of the category title.
 			height : 3 //Used to position the "Or" in the combined block.
 			}, 
 		stimulusMedia : [ //Stimuli content as PIP's media objects
@@ -26,7 +26,7 @@ return iatExtension({
 		name : 'Sacar trabajo adelante', //Will appear in the data.
 		title : {
 			media : {word : 'Sacar trabajo'}, //Name of the category in the task.
-			css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
+			css : {color:'#31940F','font-size':'1.5em'}, //Style of the category title.
 			height : 3 //Used to position the "Or" in the combined block.
 			}, 
 		stimulusMedia : [ //Stimuli content as PIP's media objects
@@ -47,7 +47,7 @@ return iatExtension({
 		name : 'Bueno',
 		title : {
 			media : {word : 'Bueno'},
-			css : {color:'#0000FF','font-size':'1.8em'},
+			css : {color:'#0000FF','font-size':'1.5em'},
 			height : 3 //Used to position the "Or" in the combined block.
 			},
 		stimulusMedia : [ //Stimuli content as PIP's media objects
@@ -70,7 +70,7 @@ return iatExtension({
 		name : 'Malo',
 		title : {
 			media : {word : 'Malo'},
-			css : {color:'#0000FF','font-size':'1.8em'},
+			css : {color:'#0000FF','font-size':'1.5em'},
 			height : 3 //Used to position the "Or" in the combined block.
 			},
 		stimulusMedia : [ //Stimuli content as PIP's media objects
