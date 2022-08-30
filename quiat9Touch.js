@@ -687,7 +687,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 
 			instructions: [
 				{css:{'font-size':'1.1em',color:'black', lineHeight:2}, nolog:true, 
-					location: {left:0,top:0}, size:{width:piCurrent.instWidth}}
+					location: {left:0,top:20}, size:{width:piCurrent.instWidth}}
 			],
 
 			target: [{
