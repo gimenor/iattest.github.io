@@ -161,7 +161,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			keysCss : {'font-size':'0.8em', 'font-family':'courier', color:'#000000'},
 			//Text and style for the separator between the top and bottom category labels.
 			orText : 'o', 
-			orCss : {'font-size':'1.8em', color:'#000000'},
+			orCss : {'font-size':'1.2em', color:'#000000'},
 			
 			instWidth : 99, //The width of the instructions stimulus
             
@@ -782,13 +782,13 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			'   		<%= stimulusData.isLeft ? stimulusData.leftKeyText : stimulusData.rightKeyText %>  '  +
 			'   	</div>  '  +
 			'     '  +
-			'   	<div style="font-size:1.3em;<%= stimulusData.firstCss %>">  '  +
+			'   	<div style="font-size:1.1em;<%= stimulusData.firstCss %>">  '  +
 			'   		<%= stimulusData.first %>  '  +
 			'   	</div>  '  +
 			'     '  +
 			'   	<% if (stimulusData.second) { %>  '  +
-			'   		<div style="font-size:2.3em; <%= stimulusData.orCss %>"><%= stimulusData.orText %> </div>  '  +
-			'   		<div style="font-size:1.3em; max-width:100%; <%= stimulusData.secondCss %>">  '  +
+			'   		<div style="font-size:1.1em; <%= stimulusData.orCss %>"><%= stimulusData.orText %> </div>  '  +
+			'   		<div style="font-size:1.1em; max-width:100%; <%= stimulusData.secondCss %>">  '  +
 			'   			<%= stimulusData.second %>  '  +
 			'   		</div>  '  +
 			'   	<% } %>  '  +
